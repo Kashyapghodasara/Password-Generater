@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Password Generater</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="form-container">
+    <form>
+      <h1>Password Generater</h1>
+      <div class="checkbox-group">
+        <label><input type="checkbox" class="Uppercase"> Uppercase Letters</label>
+        <label><input type="checkbox" class="Lowercase"> Lowercase Letters</label>
+        <label><input type="checkbox" class="Numeric"> Numeric Values</label>
+        <label><input type="checkbox" class="Special"> Special Characters</label>
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="Password" name="inputText" class="show">
+      </div>
+      <div class="button-group">
+        <button type="button" class="btn" onclick="Getpw()">Generate</button>
+      </div>
+      <div class="Lenght">
+        <label for="quantity">Length (4<15)</label><br>
+        <input type="number" id="quantity" name="quantity" min="4" max="15">
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
