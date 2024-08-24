@@ -1,2 +1,2 @@
-# Password-Generater
-This is an Password Generater Website
+# Password-Generator
+This is an Password Generator Website
